@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+#first{
+    background-color: white;
+    padding: 40px 60px;
+    margin: 40px 60px;
+    text-align: center;
+}
+.todoheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid grey;
+}
+.todoitem, .todotext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.date{
+    display: flex;
+    gap: 5px;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+.today{
+    text-align: end;
+}
+
+i{
+    font-size: 40px;
+}
+
+.todoinput{
+    display: flex;
+    align-items: center;
+
+}
+
+input[type = "text"]{
+    height: 32px;
+    resize: horizontal;
+    width: 400px;
+    padding-left: 5px;
+}
+
+.todoitem i{
+    font-size: 20px;
+
+}
+
+.todoitems{
+    display: grid;
+    gap: 10px;
+}
